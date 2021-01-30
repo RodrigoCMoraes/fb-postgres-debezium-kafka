@@ -1,6 +1,7 @@
 # fb-postgres-debezium-kafka
-Foo Bar repository for me to learn about change data capture with postgres, debezium and kafka
+Foo Bar repository for me to learn about change data capture with postgres, debezium and kafka. For this the architecture below will be created.
 
+![Change Data Capture Overview](cdc.svg)
 
 # References
 
