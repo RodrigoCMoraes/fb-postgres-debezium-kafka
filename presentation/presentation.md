@@ -2,7 +2,6 @@
 % *[Rodrigo C. Moraes](https://github.com/rodrigocmoraes)*
 % February 13, 2021
 
-
 # What is Debezium?
 
 ## 
@@ -34,4 +33,52 @@ in the upstream OLTP databases.
 
 <font size="5">Source:</font> <font size="5">[Debezium FAQ](https://debezium.io/documentation/faq/#what_is_change_data_capture)</font>
 
-## What databases can Debezium monitor?
+
+## Advantages of CDC solutions based on transaction logs
+
+- Minimal impact on the database;
+- No need for programmatic changes to the applications that use the database;
+- Low latency in acquiring changes;
+- Transactional integrity;
+- No need to change the database schema.
+
+<font size="5">Source:</font> <font size="5">[Wikipedia](https://en.wikipedia.org/wiki/Change_data_capture)</font>
+
+::: notes
+
+Debezium is based on transaction logs
+
+::: 
+
+## CDC and Events
+
+![Ven Diagram of CDC and Events](img/cdc_and_events.png)
+
+<font size="5">Source:</font> <font size="5">[Kislayverma.com](https://kislayverma.com/software-architecture/domain-events-versus-change-data-capture/)</font>
+
+::: notes
+
+Events have business impact, they occurs at domain level.
+This domain level are composed by bounded contexts
+
+Events are composed by System Events
+
+e.g.: a package has a lot of different status, but just some 
+      are displayed to end user.
+
+In essence all Events is Change that could captured, but these are just at Domain Level
+
+::: 
+
+# What is Kafka ?
+
+##
+
+!["Káf-ka"](img/kafka.png)
+
+##
+
+Apache Kafka is a fast, scalable, durable, and distributed messaging system that records all messages 
+in replicated, partitioned, and totally-ordered transaction logs.
+
+<font size="5">Source:</font> <font size="5">[Debezium FAQ](https://debezium.io/documentation/faq/#what_is_kafka)</font>
