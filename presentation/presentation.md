@@ -70,6 +70,24 @@ In essence all Events is Change that could captured, but these are just at Domai
 
 ::: 
 
+## Motivation
+
+![](img/motivation.png)
+
+<font size="5">Source:</font> <font size="5">[Medium - Dunith Dhanushka](https://medium.com/event-driven-utopia/a-gentle-introduction-to-event-driven-change-data-capture-683297625f9b)</font>
+
+::: notes
+
+Talk about
+
+1. If an application would to know some info about a change in database?
+Should it pulling? On client? What frequency of pooling?
+
+2. If there multiple applications and change should be propragated through all
+of them, it should know about the existence of all others?
+
+::: 
+
 # What is Kafka ?
 
 ##
