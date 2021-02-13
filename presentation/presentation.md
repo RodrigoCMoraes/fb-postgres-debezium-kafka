@@ -204,7 +204,7 @@ in replicated, partitioned, and totally-ordered transaction logs.
 
 # Demo
 
-![](demo.gif)
+![](gif/demo.gif)
 
 # Takeaways
 

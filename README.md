@@ -4,7 +4,7 @@ This repository is a presentation introducing concepts regarding CDC - Change Da
 
 ## Presentation Preview
 
-![](presentation/preview.gif)
+![](presentation/gif/preview.gif)
 
 ## References
 
